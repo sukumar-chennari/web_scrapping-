@@ -15,7 +15,6 @@ chrome_opts.add_argument("--no-sandbox")
 chrome_opts.add_argument("--disable-dev-shm-usage")
 
 # Path to WebDriver executable
-#path_to_driver = 'C:/Program Files/chromedriver-win64/chromedriver.exe'
 path_to_driver = "C:/chromedriver-win64/chromedriver.exe"
 service = Service(path_to_driver)
 browser = webdriver.Chrome(service=service, options=chrome_opts)
